@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model and vectorizer using joblib
-model = joblib.load(r"C:\Users\HAMSIKA\Desktop\emotion_detection\detection.pkl")
-vectorizer = joblib.load(r"C:\Users\HAMSIKA\Desktop\emotion_detection\vectorization.pkl")
+model = joblib.load("detection.pkl")
+vectorizer = joblib.load("vectorization.pkl")
 
 # Label map
 label_map = {
